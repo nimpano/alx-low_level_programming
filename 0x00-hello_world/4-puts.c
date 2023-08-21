@@ -1,8 +1,11 @@
 #include <stdio.h>
-int main (void)
+
 /**
- * printing the first word in programming science
+ * main - main entry point
+ * return :always 0 (success)
  */
+
+int main (void)
 
 {
 	puts("\"Programming is like building a multilingual puzzle");
