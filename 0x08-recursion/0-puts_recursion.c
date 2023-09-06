@@ -1,13 +1,18 @@
-#include <stdio.h>
-/* main - check code
- * return: always 0
- * */
-int main(void)
+#include "main.h"
+/**
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
+ */
+void _puts_recursion(char *s)
 {
-	str = ""
-	printf("Enter the string: ");
-	scanf("%d", &str);
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
 
-	return (0);
-
+	else
+		_putchar('\n');
 }
+
