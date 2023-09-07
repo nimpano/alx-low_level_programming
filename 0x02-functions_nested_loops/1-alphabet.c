@@ -3,6 +3,7 @@
 
 	/**
 	 * print_alphabet - print all alphabet in lowercase
+	 * putchar: return 0 always
 	 */
 
 
