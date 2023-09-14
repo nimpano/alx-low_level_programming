@@ -3,8 +3,8 @@
 #include "main.h"
 
 /**
-*main print file name
-*Retun: always 0 (success)
+*main - main print file name
+*Return: always 0 (success)
 */
 
 
