@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+*main print file name
+*Retun: always 0 (success)
+*/
+
+
 int main(void)
 
 {
