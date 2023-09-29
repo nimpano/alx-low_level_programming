@@ -1,17 +1,18 @@
-
-
-
+#ifndef DOG_H
+#define DOG_H
 
 /**
-*main- main is to make the structure that make the struct do
-*struct dog contain info about dog inlcuding name, age, and owner.
-*Return: 0 (always) a success
-*/
-
+ * struct dog - a dog's basic info
+ * @name: First member
+ * @age: Second member
+ * @owner: Third member
+ *
+ * Description: Longer description
+ */
 struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 };
-
+#endif
