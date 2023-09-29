@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 #include "dog.h"
 
 /**
@@ -10,9 +11,9 @@ int main(void)
 {
     struct dog my_dog;
 
-    my_dog.name = "Poppy";
-    my_dog.age = 3.5;
-    my_dog.owner = "Bob";
+    my_dog.name = "Naphtar";
+    my_dog.age = 23;
+    my_dog.owner = "Emile";
     printf("My name is %s, and I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
     return (0);
 }
