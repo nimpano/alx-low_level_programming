@@ -1,17 +1,16 @@
 #include "main.h"
 
 /**
- * get_endianness - prog checks the endianness
+ * get_endianness - checks the  system byte order
  *
  * Return: 0 if big endian, 1 if little endian
  */
 int get_endianness(void)
 {
-	int a;
-	char *b;
+	int x;
+	int little_or_big;
 
-	a = 1;
-	b = (char *)&a;
-	return (*b);
+	little_or_big = (int)(((chr *)&x)[0]);
+	return (little_or_big);
 }
 
